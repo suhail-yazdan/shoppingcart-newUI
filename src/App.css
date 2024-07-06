@@ -1,0 +1,23 @@
+main {
+  padding: 20px 0px;
+}
+
+div.grid1200 {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+header {
+  background-color: #f18500;
+}
+.breadcrumb a{
+  text-decoration: none;
+  color:#512c1a;
+}
+.breadcrumb a:hover{
+  text-decoration: underline;
+}
+.breadcrumb span{
+  color: #f18500;
+  margin: 0px 5px;
+}

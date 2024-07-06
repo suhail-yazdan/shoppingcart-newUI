@@ -1,0 +1,55 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  div h4{
+    font-size: 18px;
+    margin: 0px 0px 5px 0px;
+    color: #512c1a  ;
+  }
+  .counterValue {
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .counterValueAdded {
+    
+    color: #f18500;
+  }
+  
+  .counterValueDefault {
+    
+    color: #b5b5b5;
+  } 
+  
+  .counterBtn {
+    width: 20px;
+    height: 20px;    
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #f18500;
+    color: white;
+    border: none;
+    margin: 0px 2px;
+    font-size: 12px;
+  }
+  .counterBtn:hover{
+    background-color: #fda63b;
+  }
+  .buyNow{
+    border: 1px solid #f18500;
+    background: none;
+    margin: 10px 0px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #f18500;
+  }
+  .buyNow:hover{
+    background-color: #f18500;
+    color: #fff;
+  }
